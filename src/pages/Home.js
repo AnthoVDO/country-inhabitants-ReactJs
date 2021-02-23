@@ -1,12 +1,15 @@
 //import React from 'react'  => not mandatory since the new release
 
 import Navigation from "../components/Navigation";
+import Logo from "../components/Logo";
+import Countries from "../components/Countries";
 
 const Home = ()=>{
     return (
         <div className="home">
             <Navigation/>
-            <h1>Home</h1>
+            <Logo />
+            <Countries/>
         </div>
     );
 };
